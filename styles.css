@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card {
+  height: 80%;
+  width: 5%;
+  background-color: black;
+  margin-right: 1rem;
+  border-radius: 10rem;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+  position: relative;
+}
+
+span {
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+  color: white;
+  font-size: 3rem;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-delay: 0.3s;
+  animation-duration: 0.5s;
+  opacity: 0;
+  background-color: black;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+
+span.change {
+  animation-name: fadeIn;
+  display: inline;
+}
+
+.card.change {
+  width: 50%;
+}
+
+.card-1 {
+  background-image: url("images/1.jpg");
+}
+
+.card-2 {
+  background-image: url("images/2.jpeg");
+}
+
+.card-3 {
+  background-image: url("images/3.jpeg");
+}
+
+.card-4 {
+  background-image: url("images/4.jpg");
+}
+
+.card-5 {
+  background-image: url("images/5.jpeg");
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
