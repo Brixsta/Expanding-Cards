@@ -1,6 +1,6 @@
 # Expanding-Cards
 
-[Expanding Cards](https://brixsta.github.io/Expanding-Cards/)
+[View Expanding Cards](https://brixsta.github.io/Expanding-Cards/)
 
 - Coding exercise
 - Practice making expanding cards
